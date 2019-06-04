@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="../assets/bootstrap/css/bootstrap.css">
+    <link rel="stylesheet" href="../assets/css/leyohm.css">
+    <title>Ley Ohm</title>
+</head>
+<body>
+    <div class="content-home">
+        <div class="title-cal">
+            <p class="text-center">LEY DE OHM</p>
+        </div>
+        <div class="content-cal row">
+            <div class="col-4 colum-img">
+                <img src="../assets/img/leyohm.png" alt="">
+                <button class="btn btn-success">Que es la ley de Ohm</button>
+
+            </div>
+            <div class="col-8 colum-cal">
+                <form>   
+                    <div>
+                        <div class="input-group">                            
+                            <input type="number" class="form-control" id="inputv" placeholder="Escriba un voltaje">                                
+                            <div class="input-group-prepend">
+                                    <span class="input-group-text">V</span>
+                            </div>
+                        </div>
+                        <div class="input-group">                            
+                                <input type="number" class="form-control" id="inputa" placeholder="Escriba una corriente">                                
+                                <div class="input-group-prepend">
+                                        <span class="input-group-text">A</span>
+                                </div>
+                        </div>
+                        <div class="input-group">                            
+                                <input type="number" class="form-control" id="inputr" placeholder="Escriba una resistencia">                                
+                                <div class="input-group-prepend">
+                                        <span class="input-group-text">&#8486</span>
+                                </div>
+                        </div>
+                        <div class="button-action row"> 
+                                <div class="col-6">
+                                        <div class="btn btn-success" id="btncalcular">Calcular</div>
+                                </div> 
+                                <div class="col-6">
+                                        <div class="btn btn-danger" id="btnreset">Limpiar</div>
+                                </div>                       
+                        </div>
+                  </div>                    
+               </form>
+            </div>
+           
+
+
+        </div>
+    </div>
+    <script src="../assets/bootstrap/js/bootstrap.js"></script>
+    <script src="../assets/js/jquery.js"></script>
+    <script src="../assets/js/leyohm.js"></script>
+</body>
+</html>
